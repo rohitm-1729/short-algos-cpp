@@ -1,3 +1,5 @@
+//this program is designed to take input from a text file
+//and output into a new text filr named "out"
 #include <iostream>
 #include<bits/stdc++.h>
 using namespace std;
