@@ -1,2 +1,2 @@
 # short-algos-cpp
-This repo is about algorithms and their designing
+This repository is about algorithms and their designing
