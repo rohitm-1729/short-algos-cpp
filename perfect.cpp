@@ -1,0 +1,46 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+long long int k,i,a=0,b=0,rem=0,c=0,x=0,d=0,f=0,y=0,g=0;
+cin>>k;
+for(i=1;i<=k;i++)
+{
+    y=(i*10);
+    while(y>0)
+    {
+        g=g+(y%10);
+        y=y/10;
+    }
+    if(g<=10)
+    {
+        f=f+1;
+        if(f==k)
+        {
+        k=(y/10);
+        i=k+1;
+        break;
+        }
+    }
+}
+a=(k*10);
+b=((k+1)*10);
+for(i=a;i<=b;i++)
+{
+  c=i;
+  x=0;
+while(c>0)
+{
+rem=(c%10);
+x=x+rem;
+c=c/10;
+}
+if(x==10)
+{
+    d=i;
+    i=b+1;
+    break;
+}
+}
+cout<<d;
+}
